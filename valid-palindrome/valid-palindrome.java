@@ -6,9 +6,6 @@ class Solution {
         StringBuilder sb = new StringBuilder(result);
         String reverse = sb.reverse().toString();
         
-        System.out.println(result);
-        System.out.println(reverse);
-        
         if (result.equals(reverse)) {
             return true;
         }
